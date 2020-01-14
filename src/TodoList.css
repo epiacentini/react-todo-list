@@ -1,0 +1,51 @@
+.Outer {
+	padding-left: 525px;
+}
+
+.tdlMain .header input{
+	padding: 10px;
+	font-size: 32px;
+	border: 2px solid grey;
+	width: 350px;
+	border-radius: 40px;
+}
+
+.tdlMain .header button{
+	padding: 10px;
+	font-size: 32px;
+	margin: 10px;
+	margin-right: 0px;
+	background-color: #ff00ff;
+	border: 2px solid #ff00ff;
+	color: white;
+	border-radius: 20px;
+
+}
+
+.tdlMain .header button:hover{
+	background-color: #cc66ff;
+	border: 2px solid #cc66ff;
+	cursor: pointer;
+}
+
+.tdlMain .theList li{
+	color: #333;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 30px;
+	list-style: none;
+
+
+	transition: background-color .2s ease-out;
+}
+
+.tdlMain .theList li:hover{
+	background-color: cyan;
+	cursor: pointer;
+} 
+
+ul.theList{
+	padding: 0px;
+}
+
